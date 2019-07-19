@@ -43,3 +43,35 @@ footer {
   background-color: #101427;
   color: #ffffff;
 }
+
+/* Inicia menu manurger */
+nav {
+  z-index: 4;
+  position: fixed;
+  margin-top: 0.8%;
+  width: 15%;
+  background-color: #eaeaea;
+  box-shadow: 5px #000000;
+  left: 80%;
+  border-radius: 20px;
+  display: none;
+}
+
+ul {
+  text-align: center;
+  padding: 5%;
+}
+
+li a {
+  margin-right: 5%;
+}
+
+#onhover {
+  display: none;
+}
+#surround:hover img[id="menu"] {
+  display: none;
+}
+#surround:hover img[id="onhover"] {
+  display: block;
+}
