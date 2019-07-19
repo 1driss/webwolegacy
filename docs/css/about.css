@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap');
+.main {
+  background-color: #0d0f1c;
+  height: 100%;
+  padding: 40px;
+}
+
+.bar {
+  background-color: #101427;
+  height: 100%;
+  padding: 40px;
+}
+
+h2 {
+  color: #ffffff;
+  font-family: 'Open Sans';
+  font-size: 1.5em;
+}
+
+p {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.card-content {
+  background-color: #101427;
+}
+
+.card {
+  margin-top: 20px;
+  border-radius: 6px;
+  overflow:hidden;
+  background-color: #0d0f1c;
+}
+
+.column {
+  padding: 20px;
+}
+
+mark {
+  background-color: #101427;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+#p-mark {
+  margin-top: 20px;
+}
+
+#margin {
+  text-align: left;
+  margin-top: 20px;
+}
