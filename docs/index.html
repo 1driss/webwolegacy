@@ -8,11 +8,21 @@
     <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
   </head>
   <body>
+    <nav id="nav">
+      <ul>
+        <li> <a href="#">Play</a> </li>
+        <li> <a href="about.html">About</a> </li>
+        <li> <a href="#">Discord</a> </li>
+      </ul>
+    </nav>
     <header>
       <div class="head">
         <img src="css/img/logo.png" alt="Wild Ones Legacy" width="120px">
         <div class="head-right">
-          <img src="css/img/menu.svg" width="20px" alt="Menu">
+          <a href="javascript:void(0);" class="icon" id="surround" onclick="openMenu()">
+            <img id="menu" src="css/img/menu.svg" width="20px" alt="Menu">
+            <img id="onhover" src="css/img/close.png" width="20px" alt="Close">
+          </a>
         </div>
       </div>
     </header>
@@ -23,7 +33,7 @@
                 We keep original
               </h1>
               <h2 class="subtitle">
-                The same pets. The same design.
+                The same pets. The same weapons.
               </h2>
             </div>
           </div>
@@ -43,5 +53,15 @@
     <footer>
       <h1>Designed by <i>@ManuRz</i>. Proudly using <i>Bulma</i> and <i>Google Fonts</i>.</h1>
     </footer>
+    <script type="text/javascript">
+    function openMenu() {
+    var x = document.getElementById("nav");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+  x.style.display = "block";
+}
+}
+    </script>
   </body>
 </html>
